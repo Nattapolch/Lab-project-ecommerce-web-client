@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product detail</title>
+
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/productDetail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- left side -->
+    <div class="grid-side-item">
+        <div class="side-box"></div>
+    </div>
+
+    <!-- main body -->
+    <div class="grid-main-item">
+        <!-- Web Header -->
+        <div class="header-item">
+            <div class="header-container">
+                <p id="shop-name">Shop</p>
+            </div>
+            <div class="header-container">
+                <i class="fa fa-user-circle-o" id="user-icon" aria-hidden="true"></i>
+                <p id="user-detail">คุณสวัสดี วันจันทร์</p>
+            </div>
+        </div>
+
+        <!-- Product detail container -->
+        <div class="product-detail-container">
+            <div class="product-image">
+                <img id="display-product-image" src="../image/no-photo.jpg">
+            </div>
+            <div class="product-detail">
+                <div class="title-container">
+                    <p id="product-title">Produc Name</p>
+                </div>
+                <div class="detail-container">
+                    <p id="product-detail">Product detail</p>
+                </div>
+                <div class="price-container">
+                    <p id="product-total-price">10,000 บาท</p>
+                </div>
+                <div class="count-button-container">
+                    <p id="number-of-product" style="margin-right: 20px; font-weight: 500;">จำนวน</p>
+                    <div class="adjust-button" id="minus-button">
+                        <p id="adjust-text-button">-</p>
+                    </div>
+                    <div class="display-number">
+                        <p id="number-of-product-in-order">1</p>
+                    </div>
+                    <div class="adjust-button" id="plus-button">
+                        <p id="adjust-text-button">+</p>
+                    </div>
+                </div>
+                <div class="order-button-container">
+                    <div class="order-button" id="buy-now-button">
+                        <p class="button-text">ซื้อทันที</p>
+                    </div>
+                    <div class="order-button" id="add-to-cart-button">
+                        <p class="button-text">หยิบใส่ตระกร้า</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    <!-- right side -->
+    <div class="grid-item">
+        <div class="side-box"></div>
+    </div>
+    <script src="../js/productDetail.js"></script>
+</body>
+</html>

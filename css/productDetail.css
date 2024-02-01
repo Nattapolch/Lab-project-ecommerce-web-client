@@ -1,0 +1,148 @@
+.product-detail-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 0px;
+    padding: 30px;
+    height: auto;
+}
+
+/* image  */
+
+.product-image{
+    width: 100%;
+    height: 100%;
+}
+
+#display-product-image{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.product-detail{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.title-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#product-title{
+    font-size: 28pt; 
+    font-weight: bold;
+    color: black;
+    margin-left: 10px;
+}
+
+.detail-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#product-detail{
+    font-size: 14pt; 
+    color: black;
+}
+
+.count-button-container, .price-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+#product-total-price{
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+.adjust-button{
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    transition: background-color 0.3s ease;
+}
+
+.adjust-button:hover{
+    background-color: orangered;
+    cursor: pointer;
+}
+
+.display-number{
+    width: 60px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(224, 224, 224);
+}
+
+#adjust-text-button{
+    font-size: 20pt;
+    font-weight: bolder;
+    color: white;
+}
+
+#number-of-product, #number-of-product-in-order{
+    font-size: 18pt;
+    font-weight: bolder;
+}
+
+.order-button-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+#buy-now-button{
+    background-color: orangered;
+    transition: background-color 0.3s ease;
+}
+
+#buy-now-button:hover{
+    background-color: rgb(184, 49, 0);
+    cursor: pointer;
+}
+
+#add-to-cart-button{
+    background-color: orange;
+    transition: background-color 0.3s ease;
+}
+
+#add-to-cart-button:hover{
+    background-color: rgb(182, 118, 0);
+    cursor: pointer;
+}
+
+.button-text{
+    font-size: 14pt;
+    font-weight: bold;
+    color: white;
+}
